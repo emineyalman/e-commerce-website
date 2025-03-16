@@ -1,8 +1,14 @@
-
+import Category from "./components/home/Category";
+import Banner from "./components/home/Banner";
+import Products from "./components/home/Products";
 export default function Home() {
+
   return (
     <div>
-      <h1>Hello World</h1>
+      
+        <Category />
+        <Banner />
+        <Products />
     </div>
   );
 }
